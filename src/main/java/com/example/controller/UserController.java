@@ -12,11 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class UserController {
     @RequestMapping("/test1")
-    public  Object test1(){
+    public Object test1() {
         return "test1 ok";
     }
+
     @RequestMapping("/test2")
-    public  Object test2(){
+    public Object test2() {
         return "test2 ok";
+    }
+
+    @RequestMapping("/test3")
+    public Object test3() {
+        return "test3 ok";
     }
 }
